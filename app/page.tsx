@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#eef3ef] px-4 sm:px-6 py-10">
+    <main className="min-h-screen flex items-center justify-center bg-[#eef3ef] px-4 sm:px-6 ">
 
       <div className="w-full max-w-2xl text-center">
 
