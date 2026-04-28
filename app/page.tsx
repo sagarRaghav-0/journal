@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#eef3ef] px-4 sm:px-6">
+    <main className="min-h-screen flex items-center justify-center bg-[#eef3ef] px-4 sm:px-6 py-10">
 
       <div className="w-full max-w-2xl text-center">
 
@@ -18,17 +18,18 @@ export default function Home() {
         </p>
 
         {/* Features */}
-        <div className="mt-6 text-left text-sm sm:text-base text-gray-700 space-y-2 px-4 sm:px-6 md:px-10">
+        <div className="mt-6 text-left text-sm sm:text-base text-gray-700 space-y-2 px-2 sm:px-6 md:px-10">
           <p>✔ 30 Guided Reflection Pages</p>
           <p>✔ Mind Relaxing Layout</p>
           <p>✔ Daily Prompts & Mood Tracking</p>
           <p>✔ Perfect for Self-Healing & Growth</p>
         </div>
 
-        {/* Button */}
+        {/* Button (fixed) */}
         <a
-          href="/journal.pdf"
+          href="/pdf/journal.pdf"
           target="_blank"
+          rel="noopener noreferrer"
           className="mt-8 inline-block w-full sm:w-auto px-6 sm:px-8 py-3 bg-green-800 text-white rounded-xl hover:bg-green-900 transition text-sm sm:text-base md:text-lg"
         >
           Download Now
