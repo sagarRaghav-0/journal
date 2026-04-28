@@ -27,7 +27,7 @@ export default function Home() {
 
         {/* Button (fixed) */}
         <a
-          href="/pdf/journal.pdf"
+          href="/pdf/journal1.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-block w-full sm:w-auto px-6 sm:px-8 py-3 bg-green-800 text-white rounded-xl hover:bg-green-900 transition text-sm sm:text-base md:text-lg"
